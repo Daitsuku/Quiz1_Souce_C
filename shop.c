@@ -78,7 +78,7 @@ void main(){
 
     }while(total>money);
     money = money-total;
-    printf("\n");
+    printf("Exchanged : %d\n",money);
     exchange(money);
 
 
